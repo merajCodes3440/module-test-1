@@ -27,7 +27,11 @@ div .ho:hover{
   .image2 {
     width: 459px;
     height: 193px;
+     transition:transform .5s ease;  
   }
+ .image2:hover{
+    transform: scale(1.02);  
+}
   .item {
     padding: 6px;
     width: 130px;
@@ -79,7 +83,11 @@ div .ho:hover{
     height: 518px;
     width: 100%;
     margin-bottom: 30px;
+      transition:transform .5s ease;
   }
+.img1:hover{
+     transform: scale(1.02);
+}
   
   .bottom {
     border-top: 0.1px solid black;
@@ -159,7 +167,11 @@ div .ho:hover{
   }
   .image3 {
     width: 100%;
+      transition:transform .5s ease;
   }
+.image3:hover{
+    transform: scale(1.02);
+}
   .div4 {
     margin-top: 20px;
     margin-left: 20px;
